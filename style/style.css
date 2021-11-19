@@ -16,5 +16,43 @@ body{
     justify-content: center;
 }
 .instagram-wrapper{
-    
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.instagram-phone img{
+    height: 50rem;
+}
+.instagram-continue{
+    display: flex;/*horizontal*/
+    align-items: center;/*vertical*/
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: lightgray;
+}
+.group:nth-child(1){
+    min-height: 19rem;
+}
+.profile-photo img{
+    height: 10rem;
+    width: 7rem;
 }
